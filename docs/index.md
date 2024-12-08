@@ -10,14 +10,14 @@
 
 ???+ "December 12, 2024"
 
-    ## **Lio Kuokman & Stephen Hough**
+    ## [**Lio Kuokman & Stephen Hough**](https://magicat888.github.io/HKPO202425/20241212/)
     - Fazıl SAYGrand Bazaar
     - SAINT-SAËNSPiano Concerto no. 5, Egyptian
     - BERLIOZ Symphonie fantastique
 
 ???+ "January 17, 2025"
 
-    ## **Bayreuth: Scenes from the Ring**
+    ## [**Bayreuth: Scenes from the Ring**](https://magicat888.github.io/HKPO202425/20250117/programme1/)
     - WAGNER: Scenes from Siegfried and Götterdämmerung
 
 ???+ "April 4, 2025"
