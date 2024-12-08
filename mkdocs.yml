@@ -6,16 +6,44 @@ theme:
     code: Red Hat Mono
   features:
     - content.tabs.link
+    - navigation.footer
+  icon:
+    logo: fontawesome/solid/h
+  palette:
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: green
+      accent: deep purple
 
 markdown_extensions:
   - attr_list
   # admonition
   - admonition
   - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.superfences
   # content tab
   - pymdownx.tabbed:
       alternate_style: true
 
-extra_css:
-  - css/extra.css
+# extra_css:
+#   - css/extra.css
+
+extra:
+  social:
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/in/felix-fung-m9384/
+
+copyright: Copyright &copy; 2024 Felix Fung

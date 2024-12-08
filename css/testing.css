@@ -1,0 +1,112 @@
+:root {
+  /* Light Mode Colors */
+  --md-primary-color: var(--md-primary);
+  --md-accent-color: var(--md-accent);
+  --md-text-color: #333;
+  --md-bg-color: #f9f9f9;
+  --md-link-color: var(--md-primary);
+  --md-code-bg-color: #f4f4f4;
+  --md-border-color: #ddd;
+}
+
+[data-md-color-scheme="slate"] {
+  /* Dark Mode Colors */
+  --md-primary-color: var(--md-primary);
+  --md-accent-color: var(--md-accent);
+  --md-text-color: #e0e0e0;
+  --md-bg-color: #121212;
+  --md-link-color: var(--md-primary);
+  --md-code-bg-color: #1e1e1e;
+  --md-border-color: #333;
+}
+
+/* General Body Styling */
+body {
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--md-bg-color);
+  color: var(--md-text-color);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Header Customization */
+.md-header {
+  background-color: var(--md-primary-color);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.md-header .md-header-nav__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.md-header .md-header-nav__link {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.md-header .md-header-nav__link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Sidebar Customization */
+.md-sidebar {
+  background-color: var(--md-bg-color);
+  border-right: 1px solid var(--md-border-color);
+}
+
+.md-sidebar .md-nav__item a {
+  color: var(--md-link-color);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.md-sidebar .md-nav__item a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--md-text-color);
+}
+
+.md-sidebar .md-nav__item--active > a {
+  background-color: var(--md-primary-color);
+  color: white;
+}
+
+/* Content Area */
+.md-content {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: var(--md-bg-color);
+  border-radius: 8px;
+}
+
+.md-content h1,
+.md-content h2,
+.md-content h3,
+.md-content h4,
+.md-content h5,
+.md-content h6 {
+  color: var(--md-primary-color);
+}
+
+.md-content p {
+  color: var(--md-text-color);
+}
+
+.md-content a {
+  color: var(--md-link-color);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--md-link-color);
+}
+
+.md-content a:hover {
+  color: var(--md-accent-color);
+  border-bottom-color: var(--md-accent-color);
+}
