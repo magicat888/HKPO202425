@@ -1,0 +1,21 @@
+site_name: HKPO 2024/25
+theme:
+  name: material
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  features:
+    - content.tabs.link
+
+markdown_extensions:
+  - attr_list
+  # admonition
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # content tab
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - css/extra.css
