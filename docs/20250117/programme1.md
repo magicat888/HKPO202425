@@ -12,7 +12,7 @@ Wagner's use of leitmotifs—short musical themes associated with characters, ob
 
 ---
 
-## Key Scenes from _Siegfried_
+## Key Scenes from _Siegfried_ 3 acts
 
 ### **Act I: Siegfried Forges the Sword (Nothung)**
 
